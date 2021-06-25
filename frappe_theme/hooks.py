@@ -8,16 +8,17 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "e8technologies.gh@gmail.com"
 app_license = "MIT"
+app_logo_url = "/assets/frappe_theme/icon/logo.png"
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/frappe_theme/css/frappe_theme.css"
-# app_include_js = "/assets/frappe_theme/js/frappe_theme.js"
+app_include_css = "/assets/frappe_theme/css/theme.css"
+# app_include_js = "/assets/theme/js/theme.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/frappe_theme/css/frappe_theme.css"
+web_include_css = "/assets/frappe_theme/css/theme_web.css"
 # web_include_js = "/assets/frappe_theme/js/frappe_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
